@@ -3,7 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  eslint: ['pages', 'app', 'public']
+  images: {
+    domains: ["cdn3.xsolla.com"],
+  },
 };
 
 module.exports = nextConfig;
