@@ -1,0 +1,49 @@
+
+.grid_container {
+  display: grid;
+  margin: 0 auto; /* center the main element */
+  max-width: 1000px; /* set a max width for the content */
+  padding: 16px;
+  grid-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+  background-color: #8400c5;
+  color: #fff;
+  font-family: "Lato";
+  line-height: 2rem;
+}
+
+.grid_item {
+  background-color: #8400c5;
+  padding: 10px;
+}
+
+.image_wrap .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image_wrap {
+  max-width: 240px;
+  height: 240px;
+  overflow: hidden;
+}
+
+.grid_item h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: "Bungee";
+  margin-bottom: 20px;
+}
+
+.grid_item button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}

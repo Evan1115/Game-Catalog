@@ -1,0 +1,60 @@
+/*  button styule*/
+.btn_wrap {
+  display: flex;
+}
+
+.circle_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f77d00;
+  border-radius: 50%;
+  border: none;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 2px 20px;
+  background-color: #6d448f;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: #58c15b;
+  transition: width 0.3s ease-in-out;
+}
+
+.btn .price,
+.btn .buy_now {
+  position: relative;
+  z-index: 1;
+}
+
+.btn .price {
+  margin-right: 10px;
+}
+
+.btn .bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  background-color: #58c15b;
+  width: 0;
+  transition: width 0.3s ease-in-out;
+}
