@@ -1,0 +1,128 @@
+/* Navigation bar styles */
+.nav_container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .navbar {
+    background-color: #400576;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .navbar_brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar_logo {
+    width: 110px;
+    min-height: 30px;
+    margin-top: 0;
+    padding-top: 0;
+    background-image: url(https://assets.website-files.com/5e73f39…/5f2ceef…_1603075.png);
+    background-position: 0 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: opacity .2s ease-in;
+    cursor: pointer;
+    background-image: url(https://assets.website-files.com/5e73f39d8f7c0b9c03c51853/5f2ceeffa59561aa38cf5df8_1603075.png);
+  }
+  
+  .navbar_menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar_list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar_item {
+    margin-left: 20px;
+  }
+  
+  .navbar_link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar_search {
+    margin-right: 20px;
+  }
+  
+  /* search bar */
+  .navbar_search {
+    margin-right: 20px;
+    width: 300px;
+  }
+  
+  
+  .search_input {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0.4em 1em;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+    border: 1px hsla(0,0%,100%,.15);
+    border-radius: 5px;
+    background-color: #4b277a;
+    transition: width .2s ease;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    .navbar_container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .navbar_menu {
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .navbar_menu ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar_menu li {
+      margin: 10px 0;
+    }
+  
+    .navbar_search {
+      margin: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 480px){
+    .navbar_search {
+      width: 250px;
+    }
+  }
+
