@@ -1,8 +1,11 @@
-import Nav from "./Nav/Nav";
+import Items from "./Items/items";
+import styles from "../styles/global.module.css";
 
 export default function Home() {
   return (
-    <main>
+    <main className={styles.main_container}>
+      {/* @ts-expect-error Server Component */}
+      <Items />
     </main>
   );
 }
