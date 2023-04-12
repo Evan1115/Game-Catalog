@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import styles1 from "../../styles/item.module.css";
-import styles2 from "../../styles/button.module.css"
+import styles1 from "../../../styles/item.module.css";
+import styles2 from "../../../styles/button.module.css";
 
 type ItemDetail = {
   id: number;
@@ -10,7 +10,7 @@ type ItemDetail = {
   image_URL: string;
 };
 
-export default function Item({ id, name, price, image_URL }: ItemDetail) {
+export default function Item({ name, price, image_URL }: ItemDetail) {
   return (
     <div className={styles1.grid_item}>
       <div className={styles1.image_wrap}>

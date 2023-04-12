@@ -1,7 +1,9 @@
+
 import { Item } from "@/models/items";
 import React from "react";
-import ItemDetail from "./item";
+import ItemDetail from "./item/item";
 import styles from "../../styles/item.module.css";
+
 
 const fetchProducts = async () => {
   const data = await fetch(
@@ -27,9 +29,10 @@ export default async function Items() {
             name={item.name}
             image_URL={item.image_url}
             price={item.unit_items[0].price.amount}
-          />       
+          />
         ))}
       </div>
+
     </div>
   );
 }
