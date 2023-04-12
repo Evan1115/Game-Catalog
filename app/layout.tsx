@@ -1,4 +1,4 @@
-import Nav from "./Nav/Nav";
+import Nav from "../components/nav/Nav";
 import "./globals.css";
 
 export const metadata = {
@@ -14,8 +14,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Nav/>
-        {children}</body>
+        <Nav />
+        {children}
+      </body>
     </html>
   );
 }

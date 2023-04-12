@@ -1,4 +1,4 @@
-import Items from "./Items/items";
+import Items from "../containers/Items/items";
 import styles from "../styles/global.module.css";
 
 export default function Home() {
