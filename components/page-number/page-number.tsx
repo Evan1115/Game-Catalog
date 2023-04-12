@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import styles from "../../styles/page-number.module.css";
 
 type Props = {
@@ -14,7 +13,7 @@ function PageNumber({ currPage, selectedPage, changePage }: Props) {
   return (
     <div
       className={
-        styles.button + (currPage === selectedPage ? styles.button_active : "")
+        `${styles.button} ${currPage === selectedPage ? styles.button_active : ""}`
       }
       key={selectedPage}
       onClick={() => changePage(selectedPage)}

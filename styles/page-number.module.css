@@ -1,56 +1,55 @@
 .button_container {
-    display: flex;
-    width: 100%;
-    padding-right: 2em;
-    padding-bottom: 6em;
-    padding-left: 2em;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    background-image: none;
-  }
-  
+  display: flex;
+  width: 100%;
+  padding-right: 2em;
+  padding-bottom: 6em;
+  padding-left: 2em;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: none;
+}
+
+.button {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+  margin-left: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: opacity 0.2s ease, transform 0.5s ease;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.button,
+.button:hover {
+  background-color: #400576;
+  opacity: 1;
+  color: #fff;
+  transition: opacity 0.2s ease, transform 0.5s ease-out;
+}
+
+.button:hover {
+  top: 2px;
+}
+
+.button_active {
+  background-color: #f77d00;
+  opacity: 1;
+  color: #fff;
+  cursor: default;
+}
+
+@media screen and (max-width: 991px) {
   .button {
-    display: flex;
-    width: 36px;
-    height: 36px;
-    margin-right: 8px;
-    margin-bottom: 16px;
-    margin-left: 8px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    transition: opacity 0.2s ease, transform 0.5s ease;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
-    text-decoration: none;
-    position: relative;
+    width: 44px;
+    height: 44px;
   }
-  
-  .button,
-  .button:hover {
-    background-color: #400576;
-    opacity: 1;
-    color: #fff;
-    transition: opacity 0.2s ease, transform 0.5s ease-out;
-  }
-  
-  .button:hover {
-    top: 2px;
-  }
-  
-  .button.button_active {
-    background-color: #f77d00;
-    opacity: 1;
-    color: #fff;
-    cursor: default;
-  }
-  
-  @media screen and (max-width: 991px) {
-    .button {
-      width: 44px;
-      height: 44px;
-    }
-  }
-  
+}
