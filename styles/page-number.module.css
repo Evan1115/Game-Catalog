@@ -8,12 +8,14 @@
   flex-wrap: wrap;
   align-items: center;
   background-image: none;
+  margin-top: 50px;
+  font-family: var(--font-codec-pro);
 }
 
 .button {
   display: flex;
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   margin-right: 8px;
   margin-bottom: 16px;
   margin-left: 8px;
@@ -47,12 +49,6 @@
   cursor: default;
 }
 
-@media screen and (max-width: 991px) {
-  .button {
-    width: 44px;
-    height: 44px;
-  }
-}
 
 @media screen and (max-width: 486px) {
   .button {

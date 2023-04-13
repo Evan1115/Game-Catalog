@@ -10,8 +10,8 @@
   grid-gap: 1rem;
   background-color: #8400c5;
   color: #fff;
-  font-family: "Lato";
   line-height: 2rem;
+  font-family: var(--font-codec-pro);
 }
 
 .grid_item {
@@ -35,8 +35,11 @@
   font-size: 1.5rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  font-family: "Bungee";
   margin-bottom: 20px;
+  font-family: var(--font-codec-pro-ultra);
+  letter-spacing: 0.5px;
+  line-height: 1em;
+  font-weight: 100;
 }
 
 .grid_item button {
