@@ -4,7 +4,11 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ["cdn3.xsolla.com", "cdn.akamai.steamstatic.com", "img.icons8.com"],
+    domains: [
+      "cdn3.xsolla.com",
+      "cdn.akamai.steamstatic.com",
+      "img.icons8.com",
+    ],
   },
 };
 

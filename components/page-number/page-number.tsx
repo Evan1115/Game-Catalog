@@ -8,13 +8,11 @@ type Props = {
 };
 
 function PageNumber({ currPage, selectedPage, changePage }: Props) {
-  console.log("inside", selectedPage);
-
   return (
     <div
-      className={
-        `${styles.button} ${currPage === selectedPage ? styles.button_active : ""}`
-      }
+      className={`${styles.button} ${
+        currPage === selectedPage ? styles.button_active : ""
+      }`}
       key={selectedPage}
       onClick={() => changePage(selectedPage)}
     >

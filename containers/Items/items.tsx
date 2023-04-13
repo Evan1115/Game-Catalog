@@ -8,23 +8,20 @@ import { useState } from "react";
 import styles2 from "../../styles/page-number.module.css";
 
 type Props = {
-  items: Item[]
-  itemPerPage: number
-}
+  items: Item[];
+  itemPerPage: number;
+};
 
-const Items = ({items, itemPerPage}: Props) => {
+const Items = ({ items, itemPerPage }: Props) => {
   const [currentPage, setCurrentPage] = useState(1);
 
-
-
-  const handlePageChange = (page: number) => { 
-    console.log(page) 
-    setCurrentPage(page)  
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
     window.scroll({
       top: 0,
       behavior: "smooth",
     });
-  }
+  };
 
   // Get the games that belong to the current page
   const startIndex = (currentPage - 1) * itemPerPage;
@@ -49,7 +46,12 @@ const Items = ({items, itemPerPage}: Props) => {
           { length: Math.ceil(items.length / itemPerPage) },
           (_, i) => i + 1
         ).map((page) => (
-          <PageNumber currPage={currentPage} selectedPage={page} changePage={handlePageChange}/>
+          <PageNumber
+            key={page}
+            currPage={currentPage}
+            selectedPage={page}
+            changePage={handlePageChange}
+          />
         ))}
       </div>
     </div>
