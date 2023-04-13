@@ -53,3 +53,10 @@
     height: 44px;
   }
 }
+
+@media screen and (max-width: 486px) {
+  .button {
+    width: 35px;
+    height: 35px;
+  }
+}

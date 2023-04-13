@@ -4,16 +4,24 @@
 }
 
 .circle_btn {
+
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f77d00;
-  border-radius: 50%;
-  border: none;
   width: 35px;
   height: 35px;
-  margin-left: 10px;
+  border-radius: 50%;
+  background-color: #f77d00;
+  color: #fff;
+  border: none;
+  outline: none;
   cursor: pointer;
+  margin-left: 20px;
+}
+
+.arrow{
+  width: 15px;
+  height: 15px;
 }
 
 .btn {
