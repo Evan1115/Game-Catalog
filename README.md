@@ -44,7 +44,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img width="350" alt="Screenshot 2022-11-26 at 12 32 09 PM" src="public/images/screenshot.PNG"/>
+<img width="350" alt="Screenshot 2022-11-26 at 12 32 09 PM" src="public/image/screenshot.PNG"/>
 
 Develop a responsive and visually appealing website that showcases a catalog of games fetched from the provided API, with game cards designed to reference the given an example:
 
@@ -112,3 +112,8 @@ Personal Website: [https://www.evancode.dev/](https://www.evancode.dev/)
 Project Link: [https://github.com/Evan1115/Game-Catalog](https://github.com/Evan1115/Game-Catalog)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
