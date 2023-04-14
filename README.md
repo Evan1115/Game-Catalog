@@ -2,7 +2,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 <a name="readme-top"></a>
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -15,8 +14,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
     <br />
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -39,34 +36,34 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
-<img width="350" alt="screenshot of project" src="public/image/screenshot.PNG"/>
+<p align="center">
+<img width="700" alt="screenshot of project" src="public/image/screenshot.PNG"/>
+</p>
 
 Develop a responsive and visually appealing website that showcases a catalog of games fetched from the provided API, with game cards designed to reference the given an example:
 
 Features:
-* Retrieve the list of games from the provided API endpoint.
-* Implement pagination to allow users to navigate through the list of games efficiently.
-* Craft a responsive design that seamlessly functions across various screen sizes on desktop and mobile devices.
-* Employ CSS modules for component styling
+
+- Retrieve the list of games from the provided API endpoint.
+- Implement pagination to allow users to navigate through the list of games efficiently.
+- Craft a responsive design that seamlessly functions across various screen sizes on desktop and mobile devices.
+- Employ CSS modules for component styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
+- [![Next][Next.js]][Next-url]
+- [![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -74,12 +71,14 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+- npm
   ```sh
   npm install npm@latest -g
   ```
 
 ### Installation
+
 1. Clone the repo
    ```sh
    git clone https://github.com/Evan1115/Game-Catalog.git
@@ -89,10 +88,12 @@ This is an example of how to list things you need to use the software and how to
    npm install
    ```
 3. Run the development server
+
    ```sh
    npm run dev
    ```
-After that open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+   After that open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 4. (Optional)Check code formatting
    ```sh
@@ -101,8 +102,8 @@ After that open [http://localhost:3000](http://localhost:3000) with your browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- CONTACT -->
+
 ## Contact
 
 Evan - jing111597@gmail.com
