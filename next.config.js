@@ -6,8 +6,7 @@ const nextConfig = {
   images: {
     domains: [
       "cdn3.xsolla.com",
-      "cdn.akamai.steamstatic.com",
-      "img.icons8.com",
+      "cdn.akamai.steamstatic.com"
     ],
   },
 };
